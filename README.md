@@ -1,8 +1,8 @@
 # Veizus Finder
 
-Lightweight, high-performance malware scanner built natively for Windows XP through 11. Engineered specifically for legacy machines that modern antivirus vendors have abandoned.
+Meet Veizus Finder. A next-generation security engine engineered natively for classic architecture. From Windows XP to 11, it delivers real-time protection, zero-bloat file scanning, and a custom signature database—giving you modern peace of mind without compromising system performance.
 
-![Veizus Finder](link-to-your-banner-image)
+![Veizus Finder](assets/banner.png)
 
 ## What it is
 
@@ -11,9 +11,9 @@ Veizus Finder is a standalone security suite that checks files against a custom 
 ## Core Features
 
 - **Real-Time Active Protection:** Runs silently in the background, instantly intercepting and scanning new or modified files on your primary drive.
-- **Modular Signature Engine (VDB v2):** Advanced threat detection supporting MD5 hash matching, text strings (with wide/nocase support), and hex byte wildcard sequences.
-- **Automatic Media Detection:** Instantly detects when USB drives or CD/DVDs are inserted and prompts for a secure scan.
-- **Smart Scheduling:** Automatically initiates a full system sweep every 10 days to catch dormant threats.
+- **Modular Signature Engine (VDB):** Advanced threat detection supporting MD5 hash matching, text strings (with wide/nocase support), and hex byte wildcard sequences.
+- **Media Detection:** Instantly detects when USB drives or CD/DVDs are inserted and prompts for a secure scan.
+- **Scan Scheduling:** Automatically initiates a full system sweep every 10 days to catch dormant threats.
 - **Context Menu Integration:** Right-click any folder or file in Windows Explorer to instantly scan it with Veizus Finder.
 - **System Tray & Auto-Start:** Boots with Windows automatically and minimizes to the system tray for zero-distraction security.
 - **Exclusion Manager:** Whitelist specific files or development directories to prevent false positives and optimize scan speeds.
@@ -33,13 +33,15 @@ Grab the latest release from the [Releases](../../releases) page. The `.iso` con
 
 1. Mount or burn the `.iso`
 2. Run `Setup.exe` (Install .NET Framework 4.0 if prompted)
-3. Launch Veizus Finder — the bundled `signatures.vdb` loads into memory automatically.
+3. Launch Veizus Finder, then apply the bundled `signatures.vdb`; it loads into memory automatically.
 
 ## Screenshots
 
-![Setup](link-to-setup-screenshot)
-![Scanning](link-to-scan-screenshot)
-![About](link-to-about-screenshot)
+![Setup](assets/installer.png)
+![UI](assets/UI.png)
+![Scanning](assets/scanning_mode.png)
+![Quarantine Mannager](assets/quarantine_manager.png)
+
 
 ## License & Usage
 
