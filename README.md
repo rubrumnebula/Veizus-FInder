@@ -37,10 +37,10 @@ Grab the latest release from the [Releases](../../releases) page. The `.iso` con
 
 ## Screenshots
 
-![Setup](assets/installer.png)
-![UI](assets/UI.png)
-![Scanning](assets/scanning_mode.png)
-![Quarantine Mannager](assets/quarantine_manager.png)
+![Setup](assets/installer.PNG)
+![UI](assets/UI.PNG)
+![Scanning](assets/scanning_mode.PNG)
+![Quarantine Mannager](assets/quarantine_manager.PNG)
 
 
 ## License & Usage
