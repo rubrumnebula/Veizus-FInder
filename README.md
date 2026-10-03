@@ -28,9 +28,6 @@ Veizus Finder is a standalone security suite that checks files against a custom 
 
 Grab the latest release from the [Releases](../../releases) page. The `.iso` contains the setup launcher, the latest signature database, and the required .NET installer.
 
-**Security check** — Always verify your download against the published SHA-256 hash before installing:
-`certutil -hashfile VeizusFinder.iso SHA256`
-
 1. Mount or burn the `.iso`
 2. Run `Setup.exe` (Install .NET Framework 4.0 if prompted)
 3. Launch Veizus Finder, then apply the bundled `signatures.vdb`; it loads into memory automatically.
